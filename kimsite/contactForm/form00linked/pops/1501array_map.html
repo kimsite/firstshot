@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--..................................................
+********************************
+**  Greg                            
+**                                  
+**  Minneapolis, MN U.S.            
+**                                  
+**  E-mail: gsh@gsharts.com       
+**                                  
+**  Current Date: 4-2008        
+**                                  
+********************************
+.....................................................-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+<title>$scrubbed = array_map('spam_scrubber',$_POST);</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="pops.css" />
+
+</head>
+
+
+
+
+<body>
+
+<h2>$scrubbed = array_map('spam_scrubber',$_POST);</h2>
+
+<p>book page 365</p>
+
+<p>script line 15</p>
+
+<p>The <b>array_map()</b> has two required arguments. The first is the name of the function to call. In this case, that's "spam_scrubber" (without the parentheses, because you are providing the function's name, not calling the function). The second argument is an array. What <b>array_map()</b> does is call the named function, once for each array element, sending each array element's value to that function. In this script, <b>$_POST</b> (an array) has six elements: <i>first_name, last_name, email, comments, submit,</i> and <i>submitted</i>. After this line of code, the <b>$scrubbed</b> array will end up with six elements: <b>$scrubbed['first_name']</b> will have the value of <b>$_POST['first_name']</b> after running it through <b>"spam_scrubber()"</b>; <b>$scrubbed['email']</b> will have the same value as <b>$_POST['email']</b> after running it through <b>"spam_scrubber()"</b>; and so forth.</p>
+
+<p>This one line of code takes an entire array of potentially tainted data <b>($_POST)</b>, cleans it using <b>"spam_scrubber()"</b>, and assigns the results to a new variable (<b>"$scrubbed"</b>) and from here on out, the script will use the <b>$scrubbed</b> array, which is clean, not the <b>"$_POST"</b> array, which is still potentially dirty.</p>
+
+
+</body>
+</html>

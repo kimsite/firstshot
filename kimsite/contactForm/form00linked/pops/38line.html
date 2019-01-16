@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--..................................................
+********************************
+**  Greg                            
+**                                  
+**  Minneapolis, MN U.S.            
+**                                  
+**  E-mail: gsh@gsharts.com       
+**                                  
+**  Current Date: 4-2008        
+**                                  
+********************************
+.....................................................-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+<title>$q = "INSERT INTO form00 (first_name, last_name, email, comments, date) VALUES ('$fn', '$ln','$em','$cm', NOW() )";</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="pops.css" />
+
+</head>
+
+
+
+
+<body>
+
+<h2>script line 38</h2>
+
+<h2>$q = "INSERT INTO form00 (first_name, last_name, email, comments, date) VALUES ('$fn', '$ln','$em','$cm', NOW() )";</h2>
+
+<p>book page 234</p>
+
+<p>The entire mysql query is assigned, for ease of handling, to the variable "<b>$q</b>".</p>
+
+<p><span class="red">A connection must already be made to the database being used</span> (via "mysqli_connect" etc-- see script line 05).</p>
+
+<p>The query itself says (Once the database is connected to- ) <b>"INSERT INTO"</b> <b>"particular table"</b> ("<b>column_name01,column_name02,column_name03,</b>etc") using the "<b>VALUES</b>" (<b>$var01,$var02,$var03,</b> etc)</p>
+
+<p>The query is not actually made until the next line...it is just put into a variable here to make it easier to handle.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--..................................................
+********************************
+**  Greg                            
+**                                  
+**  Minneapolis, MN U.S.            
+**                                  
+**  E-mail: gsh@gsharts.com       
+**                                  
+**  Current Date: 4-2008        
+**                                  
+********************************
+.....................................................-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+<title>$fn = mysqli_real_escape_string($dbc,trim(strip_tags($scrubbed['first_name'])));</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="pops.css" />
+
+</head>
+
+
+
+
+<body>
+
+<h2>script line 20</h2>
+
+<h2>$fn = mysqli_real_escape_string($dbc,trim(strip_tags($scrubbed['first_name'])));</h2>
+
+<p>book pages 243,</p>
+
+<p>The user-supplied <b>'first_name'</b> (or other variable) that is in the <b>$scrubbed</b> array (meaning that the variable has had any spamming related characters removed) has any HTML or PHP tags stripped off by the <b>strip_tags()</b> function and then the resulting string gets "<b>trimmed</b>" of any unnecessary spaces and is sent through the mysqli security function. The result is assigned to a new variable ($fn in this case) that is clean and ready to go into the database.</p>  
+
+
+</body>
+</html>

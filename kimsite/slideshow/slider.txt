@@ -1,0 +1,14 @@
+
+
+
+
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+- about 4/5 down the page is "Automatic Slideshow"
+- click on button that says: "Try it Yourseff"
+
+- you could change the speed, size, aspect ratio, caption, number of pics etc
+- you notice that it is "responsive" (gets smaller as the screen size gets smaller - good for viewing your site on cell phones, tablets etc)
+
+- looks easy to implement too
+- and its free. yey!

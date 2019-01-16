@@ -1,0 +1,105 @@
+/*css for form00linked.html*/
+
+/**/
+div#words {
+font-family: tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+p#links {
+font-variant: small-caps;
+}
+p#links a {
+color: blue;
+text-decoration: none;
+}
+p#links a:hover {
+color: red;
+text-decoration: underline;
+}
+
+span#linequestion {
+color: red;
+position: relative;
+top: 0px;
+left: 74%;
+}
+
+td {
+padding: 8px;
+border: 1px solid black;
+font-weight: bold;
+}
+
+span.javascript_link a:link {
+color: black;
+text-decoration: none;
+}
+span.javascript_link a:visited {
+color: black;
+text-decoration: none;
+}
+span.javascript_link a:hover {
+color: red;
+text-decoration: none;
+}
+
+
+span.linenumber {
+color: #00ad63;
+}
+
+span.q {
+width: 50px;
+text-align: center
+}
+span.q a:link {
+width: 50px;
+color: red;
+text-decoration: none;
+}
+span.q a:visited {
+width: 50px;
+color: red;
+text-decoration: none;
+}
+span.q a:hover {
+width: 50px;
+color: white;
+background-color: red;
+text-decoration: none;
+}
+
+span.pink {
+color: #e3007b;
+font-weight: bolder;
+}
+
+span.blue {
+color: blue;
+font-weight: bolder;
+}
+
+span.red {
+color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
